@@ -1,82 +1,70 @@
-Customer Support Workforce Analysis
-Project Overview
+# Customer Support Workforce Analysis
 
-Customer support teams generate large amounts of operational data, but this data is often underutilized in day-to-day decision making.
-This project analyzes workforce activity data to understand how employee working hours, efficiency, break patterns, and engagement relate to each other.
+## Project Overview
+Customer support teams generate large volumes of operational data, but this data is often underutilized in day-to-day decision-making.  
+This project analyzes workforce activity data to understand how employee **working hours**, **break patterns**, and **efficiency** relate to overall engagement and productivity.
 
-The goal of the analysis is to identify productivity gaps, workload imbalance, and improvement opportunities that can support better workforce planning and performance management.
+The objective is to transform raw Excel data into clear insights that help managers identify **workload imbalance**, **efficiency gaps**, and **improvement opportunities** within a customer support team.
 
-Dataset
+---
 
-The dataset represents employee-level activity data from a customer support environment.
-It includes information on working hours, productive time, different break categories, efficiency metrics, and engagement levels.
+## Dataset
+The dataset contains employee-level workforce information from a customer support environment, including:
 
-Main data areas:
+- Total working hours  
+- Productive (effective) working time  
+- Break categories (lunch, normal breaks, meetings, training, unwanted breaks, etc.)  
+- Calculated efficiency metrics  
+- Engagement classification  
 
-Total working hours and effective working time
+The data is organized across multiple Excel sheets to separate raw inputs, calculated metrics, pivot tables, and dashboard visuals.
 
-Break categories (lunch, normal breaks, meetings, training, unwanted breaks, others)
+---
 
-Calculated efficiency ratios
+## Business Questions Addressed
+This analysis was guided by the following business questions:
 
-Engagement classification for employees
+- Does higher working time always result in higher efficiency?
+- Which employees show signs of workload imbalance?
+- How effectively is break time being utilized?
+- Are there employees who perform efficiently with fewer working hours?
+- How is engagement distributed across the workforce?
+- What actions can improve productivity while reducing burnout risk?
 
-The data is structured across multiple sheets to support detailed analysis and dashboard creation.
+---
 
-Business Questions Addressed
+## Analysis Process
+The project follows a structured analytical workflow:
 
-Does higher working time always result in higher efficiency?
+### 1. Data Preparation
+- Standardized time formats across all sheets  
+- Removed blank and unnecessary rows  
+- Cleaned and aligned employee naming conventions  
 
-Which employees show signs of workload imbalance?
+### 2. Metric Creation
+- Calculated productive time and efficiency ratios  
+- Separated productive and non-productive activities  
+- Categorized engagement levels using defined performance thresholds  
 
-How effectively is break time being utilized?
+### 3. Exploratory Analysis
+- Used pivot tables to compare working hours, efficiency, and break utilization  
+- Identified performance patterns and operational inefficiencies  
 
-Which break categories contribute most to non-productive time?
+### 4. Visualization
+- Built an interactive Excel dashboard for easy interpretation by non-technical stakeholders  
 
-Who are the most efficient employees despite working fewer hours?
+---
 
-How is employee engagement distributed across the workforce?
+## Key Insights
+- Higher working hours do not consistently translate into higher efficiency, indicating possible workload or process issues.
+- Some employees maintain high efficiency with relatively fewer working hours, suggesting better work practices.
+- Non-core and unwanted breaks contribute significantly to overall productivity loss.
+- Engagement levels vary across employees, highlighting the need for targeted performance management.
 
-Analysis Process
+---
 
-Data Cleaning
+## Conclusion
+This project demonstrates how **Excel-based analysis** can deliver meaningful operational insights when guided by a clear business objective.  
+By linking working hours, efficiency, and engagement, the analysis identifies areas where productivity can be improved **without increasing employee workload**.
 
-Standardized time formats
-
-Removed blank and unnecessary entries
-
-Cleaned and aligned employee naming conventions
-
-Data Preparation
-
-Segregated productive and non-productive time
-
-Created efficiency ratios using working and effective hours
-
-Grouped employees based on engagement levels
-
-Analysis & Visualization
-
-Used pivot tables to aggregate key metrics
-
-Compared working hours with efficiency
-
-Analyzed break distribution across employees
-
-Built an Excel dashboard for clear visualization and interpretation
-
-Key Insights
-
-High working hours do not always correspond to high efficiency, indicating possible workload or process inefficiencies.
-
-Several employees achieve strong efficiency with relatively fewer hours, suggesting more effective work practices.
-
-Non-core and unwanted breaks contribute significantly to productivity loss.
-
-Engagement levels vary across employees, highlighting the need for targeted management actions rather than uniform policies.
-
-Conclusion
-
-This analysis demonstrates how operational workforce data can be used to move beyond basic tracking and support data-driven decisions.
-By combining working hours, efficiency metrics, and break analysis, the project highlights opportunities to improve productivity, balance workloads, and address engagement issues.
-
+Overall, the project reflects a **practical, entry-level data analyst approach** to workforce analytics and emphasizes the importance of translating data into **actionable business decisions**.
