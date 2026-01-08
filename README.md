@@ -31,6 +31,7 @@ This analysis was guided by the following business questions:
 - Are there employees who perform efficiently with fewer working hours?
 - How is engagement distributed across the workforce?
 - What actions can improve productivity while reducing burnout risk?
+- Dashboard Interaction <a href="https://github.com/Kanishka-vashisht/customer-support-workforce-analysis/blob/main/Screenshot%20(68).png">View Dashboard </a>
 
 ---
 
@@ -56,11 +57,17 @@ The project follows a structured analytical workflow:
 
 ---
 
+## Dashboard
+<img width="1132" height="361" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/a1b4e390-a8ba-4d52-935a-6e73b21a05f1" />
+
+---
+
 ## Key Insights
 - Higher working hours do not consistently translate into higher efficiency, indicating possible workload or process issues.
 - Some employees maintain high efficiency with relatively fewer working hours, suggesting better work practices.
 - Non-core and unwanted breaks contribute significantly to overall productivity loss.
 - Engagement levels vary across employees, highlighting the need for targeted performance management.
+<img width="1214" height="262" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/8de5ac39-fa96-4fb2-b02b-205235db8095" />
 
 ---
 
